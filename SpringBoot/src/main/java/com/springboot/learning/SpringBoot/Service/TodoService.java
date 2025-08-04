@@ -1,5 +1,8 @@
-package com.springboot.learning.SpringBoot;
+package com.springboot.learning.SpringBoot.Service;
 
+
+import com.springboot.learning.SpringBoot.models.Todo;
+import com.springboot.learning.SpringBoot.Repository.TodoRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

@@ -1,6 +1,6 @@
-package Controller;
+package com.springboot.learning.SpringBoot.controller;
 
-import Models.Todo;
+import com.springboot.learning.SpringBoot.models.Todo;
 import com.springboot.learning.SpringBoot.Service.TodoService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
