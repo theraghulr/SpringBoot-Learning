@@ -15,8 +15,6 @@ public class TodoController {
     @Autowired
     private TodoService todoService;
 
-
-
 // use pathvariable to get by id
     @GetMapping("/{id}")
     public ResponseEntity<Todo> getTodoById(@PathVariable long id){
@@ -27,8 +25,6 @@ public class TodoController {
             return new ResponseEntity<>(null,HttpStatus.NOT_FOUND);
         }
     }
-
-
 
     @GetMapping
     ResponseEntity<List<Todo>> getTodos(){

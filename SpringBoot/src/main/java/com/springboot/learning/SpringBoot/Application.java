@@ -7,7 +7,7 @@ import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
 @ComponentScan(basePackages = "com.springboot.learning.SpringBoot")
-@EntityScan(basePackages = "Models")
+@EntityScan(basePackages = "com.springboot.learning.SpringBoot.models")
 public class Application {
 
 	public static void main(String[] args) {
